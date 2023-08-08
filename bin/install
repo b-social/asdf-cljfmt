@@ -1,0 +1,11 @@
+#!/usr/bin/env bash
+set -eo pipefail
+
+PLUGIN_DIR="$(dirname "${BASH_SOURCE[0]}")/.."
+source "$PLUGIN_DIR/lib/helpers.sh"
+
+echo "Installing to ${ASDF_INSTALL_PATH}"
+
+tar -C "${ASDF_DOWNLOAD_PATH}" -xzvf "${ASDF_DOWNLOAD_PATH}/cljfmt.tar.gz"
+mkdir -p "${ASDF_INSTALL_PATH}/bin"
+install "${ASDF_DOWNLOAD_PATH}/cljfmt" "${ASDF_INSTALL_PATH}/bin/"
