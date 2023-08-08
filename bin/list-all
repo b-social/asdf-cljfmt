@@ -15,5 +15,5 @@ sort_versions() {
 
 eval "$cmd" |
 	grep -oE "tag_name\": *\".{1,15}\"," |
-	sed 's/tag_name\": *\"v//;s/\",//' |
+	sed 's/tag_name\": *\"//;s/\",//' |
 	sort_versions | grep -Ev "latest|stable" | tr "\n" " "
