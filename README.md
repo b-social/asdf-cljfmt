@@ -10,7 +10,7 @@
 
 # Dependencies
 
-- `bash`, `curl`, `unzip`
+- `bash`, `curl`, `tar`
 
 # Install
 
