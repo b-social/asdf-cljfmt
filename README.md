@@ -6,7 +6,7 @@
 
 - [Dependencies](#dependencies)
 - [Install](#install)
-- [License](#license)
+- [Legal](#legal)
 
 # Dependencies
 
@@ -41,6 +41,8 @@ cljfmt
 Check [asdf](https://github.com/asdf-vm/asdf) readme for more instructions on how to
 install & manage versions.
 
-# License
+## Legal
 
-See [LICENSE](LICENSE) © [Kroo](https://github.com/b-social/)
+Copyright © 2023 Kroo Bank Ltd.
+
+This library and source code are available under the terms of the MIT licence.  A full copy of the licence file is provided in the `LICENCE` file of the source code.
