@@ -45,4 +45,4 @@ install & manage versions.
 
 Copyright © 2023 Kroo Bank Ltd.
 
-This library and source code are available under the terms of the MIT licence.  A full copy of the licence file is provided in the `LICENCE` file of the source code.
+This library and source code are available under the terms of the MIT licence.  A full copy of the licence file is provided in the `LICENSE` file of the source code.
