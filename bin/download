@@ -15,10 +15,10 @@ get_arch() {
 	arch="$(uname -m)"
 	if [ "$arch" == 'x86_64' ]; then
 		echo 'amd64'
-	elif [ "$arch" == 'arm64' ]; then
+	elif [ "$arch" == 'arm64' ] || [ "$arch" == 'aarch64' ]; then
 		echo 'aarch64'
 	else
-		error_exit 'Sadly, there are no official releases for your architecture'
+		fail 'Sadly, there are no official releases for your architecture'
 	fi
 	return
 }
